@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.wendy.lion_dry.ResidenceHall">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:inputType="textPersonName"
+            android:text="Residence Hall Selection"
+            android:ems="10"
+            android:id="@+id/editText" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_residence_hall"
+        android:id="@+id/include"
+        android:layout_height="467dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>
