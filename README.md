@@ -8,7 +8,7 @@ Pat Heaney is a sophomore at the Pennsylvania State University. He is pursuing a
 // bio will go here
 
 ### Wendy Davis
-// bio will go here
+Wendy Davis is a sophmore at Penn State majoring in Wildlife and Fisheries Science with a focus on wildlife stuides.
 
 ## What is the goal of this app?
 Having lived on campus for all of our time in University Park so far, the three of us have found ourselves frustrated when doing laundry.  Depending on where on campus you're living, laundry may be right across the hall from your dorm room, or it could be on a completely different floor.  This is annoying if you are lugging your laundry up the stairs and find when you arrive at the laundry room that there are no open machines.  
