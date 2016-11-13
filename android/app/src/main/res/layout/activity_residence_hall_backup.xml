@@ -5,14 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.wendy.lion_dry.ResidenceHall"
-    app:layout_collapseParallaxMultiplier="0.0"
-    app:layout_collapseMode="pin">
+    tools:context="com.example.wendy.lion_dry.ResidenceHall">
 
     <include layout="@layout/content_residence_hall"
         android:id="@+id/include"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent" />
+        android:layout_height="467dp" />
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

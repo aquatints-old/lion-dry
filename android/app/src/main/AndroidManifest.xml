@@ -3,10 +3,15 @@
     package="com.example.wendy.lion_dry">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
+
+
+    <!--  -->
+    S
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
+    <!--  -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,7 +31,9 @@
             android:name=".ResidenceHall"
             android:label="@string/title_activity_residence_hall"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Floor_View"></activity>
+        <activity android:name=".Floor_View" />
+        <activity android:name=".ResHall.ResHall" />
+        <activity android:name=".ResHall"></activity>
     </application>
 
 </manifest>
