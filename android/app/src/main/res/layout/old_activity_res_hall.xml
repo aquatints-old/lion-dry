@@ -26,12 +26,25 @@
             android:id="@+id/toolbar"
             app:title="Residence Hall Selection" />
 
+        <ExpandableListView
+            android:id="@+id/hallPicker"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1.5dp"
+            android:indicatorLeft=
+                "?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="visible"></ExpandableListView>
+
         <Button
-            android:text="West - Hamilton Hall"
+            android:text="Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/dingus"
-            android:layout_weight="0.21" />
+            android:layout_weight="1.12" />
 
     </LinearLayout>
 </RelativeLayout>

@@ -15,7 +15,7 @@
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="233dp">
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -70,6 +70,12 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lion_dry_logo2_color"
+        android:id="@+id/imageView2" />
 
     <ProgressBar
         android:id="@+id/login_progress"
