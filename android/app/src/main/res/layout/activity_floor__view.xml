@@ -44,10 +44,49 @@
                 android:rowCount="1"
                 android:columnCount="4">
 
-                <Button
-                    />
+                <Button />
+                <Button />
+                <Button />
+
+
 
             </GridLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Dryers"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/scrollView3"
+                android:layout_alignEnd="@+id/scrollView3"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="230dp"
+                android:layout_marginEnd="230dp"
+                android:id="@+id/editText6" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="1"
+                android:columnCount="4">
+
+                <Button />
+                <Button />
+                <Button />
+
+
+            </GridLayout>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:clickable="true"
+                android:text="View Trends"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="200dp"
+            />
 
         </LinearLayout>
 
