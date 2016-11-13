@@ -151,10 +151,10 @@ public class Floor_View extends AppCompatActivity {
             PaginatedQueryList<Machine> result = mapper.query(Machine.class, queryExpression);
 
             if(result.get(0).isBusy()) {
-                b.setImageResource(R.drawable.washer_red);
+                b.setImageResource(R.drawable.dryer_red);
             }
             else {
-                b.setImageResource(R.drawable.washer_white);
+                b.setImageResource(R.drawable.dryer_white);
             }
         }
         //Dry2
@@ -170,10 +170,10 @@ public class Floor_View extends AppCompatActivity {
             PaginatedQueryList<Machine> result = mapper.query(Machine.class, queryExpression);
 
             if(result.get(0).isBusy()) {
-                b.setImageResource(R.drawable.washer_red);
+                b.setImageResource(R.drawable.dryer_red);
             }
             else {
-                b.setImageResource(R.drawable.washer_white);
+                b.setImageResource(R.drawable.dryer_white);
             }
         }
         //Dry3
@@ -189,10 +189,10 @@ public class Floor_View extends AppCompatActivity {
             PaginatedQueryList<Machine> result = mapper.query(Machine.class, queryExpression);
 
             if(result.get(0).isBusy()) {
-                b.setImageResource(R.drawable.washer_red);
+                b.setImageResource(R.drawable.dryer_red);
             }
             else {
-                b.setImageResource(R.drawable.washer_white);
+                b.setImageResource(R.drawable.dryer_white);
             }
         }
 
