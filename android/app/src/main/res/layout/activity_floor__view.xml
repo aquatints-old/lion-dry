@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_floor__view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wendy.lion_dry.Floor_View">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Washers"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/scrollView3"
+                android:layout_alignEnd="@+id/scrollView3"
+                android:layout_marginRight="229dp"
+                android:layout_marginEnd="229dp"
+                android:id="@+id/editText5" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="1"
+                android:columnCount="4">
+
+                <ImageButton android:src="@drawable/washer_white"
+                    android:id="@+id/wash_1" />
+                <ImageButton android:src="@drawable/washer_white"
+                    android:id="@+id/wash_2" />
+                <ImageButton android:src="@drawable/washer_white"
+                    android:id="@+id/wash_3" />
+
+
+
+            </GridLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Dryers"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/scrollView3"
+                android:layout_alignEnd="@+id/scrollView3"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="230dp"
+                android:layout_marginEnd="230dp"
+                android:id="@+id/editText6" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="1"
+                android:columnCount="4">
+
+                <ImageButton android:src="@drawable/dryer_white"
+                    android:id="@+id/dryer_1" />
+                <ImageButton android:src="@drawable/dryer_white"
+                    android:id="@+id/dryer_2" />
+                <ImageButton android:src="@drawable/dryer_white" />
+
+
+            </GridLayout>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:clickable="true"
+                android:text="View Trends"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="200dp"
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
