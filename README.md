@@ -31,4 +31,4 @@ Pat Heaney is a sophomore at the Pennsylvania State University. He is pursuing a
 Ryan Dougherty is a sophomore at the Pennsylvania State University. He is pursuing a B.S. in Information and Science Technology at the College of Information Sciences and Technology with a focus in Design and Development of Applications. 
 
 ### Wendy Davis
-Wendy Davis is a sophmore at Penn State majoring in Wildlife and Fisheries Science with a focus on wildlife stuides.
+Wendy Davis is a sophomore at Penn State majoring in Wildlife and Fisheries Science with a focus on wildlife stuides.
